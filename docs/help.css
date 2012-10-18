@@ -1,0 +1,158 @@
+body
+{
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+} 
+bodyframe
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+} 
+form
+{
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+ul
+{
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+ol
+{
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+/* Headers */
+div.hdrTopMenu
+{
+  height: 25px;
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: #BBBBFF;
+  border-bottom: #000070 3px solid;
+}
+div.ftrMain
+{
+  margin-top: 15px;
+  background-color: #DADAFD;
+  border-top: #000070 1px solid;
+  border-bottom: #000070 1px solid;
+}
+
+/* divs */
+div.pagebody
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+} 
+div.h1
+{
+  font-size: 18pt;
+  font-weight: bold;
+  color: #000030;
+}
+div.h2
+{
+  font-size: 16pt;
+  font-weight: bold;
+  color: #000030;
+}
+div.h3
+{
+  font-size: 14pt;
+  font-weight: bold;
+  color: #000030;
+}
+div.h4
+{
+  font-size: 13pt;
+  font-weight: bold;
+  color: #000030;
+  background-color: #E4E4FA;
+  border-bottom: #ABABD6 2px solid;
+}
+div.h5
+{
+  font-size: 12pt;
+  font-weight: bold;
+}
+div.funcsec
+{
+  border-bottom: #dddddd 2px solid;
+}
+div.funcindent
+{
+  margin-left: 25px;
+}
+
+/* Tables */
+td.attribute
+{
+  text-align: right;
+  padding-right: 5px;
+  vertical-align: top;
+  background-color: #FEDEB3;
+}
+td.value
+{
+  vertical-align: top;
+  border-bottom: #FEDEB3 1px solid;
+}
+td.subhdr
+{
+  padding-right: 5px;
+  vertical-align: top;
+  font-weight: bold;
+  text-decoration: italic;
+  background-color: #dde2e5;
+}
+td.subproperty
+{
+  padding-right: 5px;
+  vertical-align: top;
+  border-top: #ccd7df 1px dashed;
+}
+
+/* Links */
+.hdr
+{
+  font-weight: bold;
+  text-decoration: none;
+  color: #000088;
+}
+A.hdr:visited
+{
+  font-weight: bold;
+  text-decoration: none;
+  color: #000088;
+}
+A.hdr:hover
+{
+  font-weight: bold;
+  text-decoration: none;
+  color: #0000CC;
+}
+.main
+{
+  text-decoration: underline;
+  color: #000088;
+}
+A.main:visited
+{
+  text-decoration: underline;
+  color: #000088;
+}
+A.main:hover
+{
+  text-decoration: none;
+  color: #0000CC;
+}

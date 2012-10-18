@@ -1,0 +1,56 @@
+2006-02-16  Release PAMIE 2.0
+====================================
+ Added:  Added nameProp to imageGet()
+ Added: findText() - finds text on a page can be used with regex
+ Added: outerHTML() - gets outer HTML from body - also used with findText
+ Added: Increased _init() timeout to 300
+ Added: goBack() - Navigates back one page
+ Added: stop() - Stops navigation
+ Fixed:  ie.Document bug in pageGetText()
+ Fixed:  class properties are now instanced.
+ Added:  busyTuner to _wait methods to allow for adjustments when experiencing pages that don't fully load
+ Added:  radioButtonsGet() method
+ Fixed:  "TypeError: cannot concatenate 'str' and 'int' objects" on certain debug messages
+ Fixed:  int.strip() error in findElement() method
+
+2006-01-11  Release PAMIE 2.0 Beta
+====================================
+ Added:  updated docs with a reference guide!
+ Added:  timeout routine to windowFind() function
+Change:  fireEvent() now elementFireEvent()
+ Fixed:  catch and ignore very occassional Access Denied message in wait functions
+ Fixed:  frameWait() to support nested frames
+ Fixed:  getFrame() needed a frame wait to sync properly
+ Added:  regular expression support for findElement() val parameter, which propagates up to most methods
+ Added:  writeDocs script to generate class file documentation
+ Fixed:  elementGetList() now case insensitive
+ Fixed:  elementGetList() elementList parameter now properly accepts a list
+ Added:  elementGetChildren() method
+ Added:  support for nested frames
+ Added:  name parameter on widgetGet() methods will now accept index as argument
+ Added:  most widget...() methods will now accept either index or an element for name parameter
+ Added:  tableCellExists() method
+ Added:  tableExists() method
+ Added:  tableGet() method
+ Added:  tableRowExists() method
+ Added:  tableRowGetIndex() method
+ Added:  tablesGet() method
+Change:  elementClick() now accepts an element only
+ Added:  elementFindByIndex() method
+Change:	 widgetClickIndex() methods were removed.  use elementFindByIndex() instead
+ Fixed:  elementFind() compares attribute values correctly
+
+2006-01-01  Release PAMIE 2.0 Alpha
+====================================
+A whole new start!  The whole PAMIE structure has been revamped, reorganized, reworked and redone.  In addition to this, the main features of this release are full support for frames, forms (or not!), optional debugging, optional fancy HTML reporting, consistent function naming, many new functions, and much much more.  Your old PAMIE scripts are going to need some updating, but it is well worth it.  A build certification script (buildCert.py) has also been included that will not only validate the PAMIE builds, but will serve as an excellent example script on how to use the various PAMIE methods.  You should take a look at it and run it first.  Please remember this is an Alpha release so we can hear some feedback, so don't go throwing this into a production environment.
+
+Original Development
+====================================
+20040415 - modifications by Jeff Hinrichs (dundeemt@users.sourceforge.net)
+20040511 - modifications by Rob Marchetti (rmarchetti@users.sourceforge.net)
+20040606 - modifications by Rob Marchetti (rmarchetti@users.sourceforge.net)
+20040801 - added Frames modifications by Steve Mcdonald
+20050301 - added Frames modifications by Tom Cunningham
+20050301 - added modifications by Dave K
+20050301 - added modifications by Drunk Bum
+20060101 - whole class revamped by Drunk Bum, start of 2.x

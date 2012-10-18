@@ -1,0 +1,44 @@
+.menuHead
+{
+  color: #000030;
+  font-size: 12px;
+  font-family: Verdana, Helvetica, sans-serif; font-weight: bold;
+}
+.menuOption
+{
+  margin-top: 4px;
+  font-size: 10px;
+  line-height: 12px;
+  color: 333366;
+  font-family: Verdana, Helvetica, sans-serif;
+}
+.menuOption2
+{
+  margin-left: 40px;
+  margin-top: 8px;
+  font-size: 10px;
+  line-height: 18px;
+  color: 333366;
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+A:link
+{ 
+  color: #000030;
+  text-decoration: none;
+}
+A:visited
+{ 
+  color: #000030;
+  text-decoration: none;
+}
+A:alink
+{ 
+  color: #000030;
+  text-decoration: underline;
+}
+A:hover
+{
+  color: #000030;
+  text-decoration: underline;
+}
