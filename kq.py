@@ -9,7 +9,7 @@ HOSPITAL = {'bjkq':[]}
 GUAHAO_HAO = 'http://www.bjguahao.gov.cn/comm/%s/ksyy.php'
 GUAHAO_URL = 'http://www.bjguahao.gov.cn/comm/index.php'
 GUAHAO_KOUQIANG = GUAHAO_HAO % 'kouqiang'
-TO_MAILS = ['act.of.war.sunzi@hotmail.com']
+TO_MAILS = ['act.of.war.sunzi@hotmail.com',]
 
 class test:
     def test2(self):
